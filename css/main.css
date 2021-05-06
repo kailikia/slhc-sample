@@ -1126,6 +1126,21 @@ ul.social-icons{
     opacity: 1;
 }
 
+.links-section {
+    display: flex; 
+    justify-content: center; 
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 480px) {
+    .links-section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 
 /*  ===============================================
     Slick_dots/arrows
